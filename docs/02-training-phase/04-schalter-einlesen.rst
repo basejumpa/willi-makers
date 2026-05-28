@@ -7,7 +7,7 @@ Wir stecken die auf dem folgenden Bild gezeigte Schaltung. Während der Schalter
 
 Folgendes Programm tippen wir ein und laden es auf den Arduino.
 
-.. literalinclude:: _sources/04-schalter-einlesen.cpp
+.. literalinclude:: _listings/04-schalter-einlesen.cpp
     :language: cpp
     :linenos:
 

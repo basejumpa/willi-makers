@@ -20,7 +20,7 @@ Wir müssen die Kabel wie folgt mit dem Arduino (über das Steckbrett) verbinden
 Folgendes Programm passt zu der Schaltung und bewegt jede Sekunde den Servo auf eine der Positionen
 0°, 90° und 180°.
 
-.. literalinclude:: _sources/07-servo-ansteuern.cpp
+.. literalinclude:: _listings/07-servo-ansteuern.cpp
     :language: cpp
     :linenos:
 

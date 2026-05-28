@@ -10,7 +10,7 @@ Wir stecken folgende Schaltung: GND, der braune 1000Ohm Widerstand, der Lichtsen
 
 Das folgende Programm gibt die Helligkeitswerte auf der seriellen Schnittstelle aus.
 
-.. literalinclude:: _sources/08-lichtsensor-benutzen.cpp
+.. literalinclude:: _listings/08-lichtsensor-benutzen.cpp
     :language: cpp
     :linenos:
 

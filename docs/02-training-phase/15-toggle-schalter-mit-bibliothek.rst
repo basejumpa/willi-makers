@@ -50,6 +50,6 @@ Und weil das so viel (komplizierter) Programmtext ist, hat jemand den in Form ei
 ganz leicht abfragen können, ohne uns den ganzen Zustandskram selbst programmieren zu müssen. Dann
 sieht das Licht-an-Licht-aus-Schalten so einfach aus:
 
-.. literalinclude:: _sources/15-toggle-schalter-mit-bibliothek.cpp
+.. literalinclude:: _listings/15-toggle-schalter-mit-bibliothek.cpp
     :language: cpp
     :linenos:

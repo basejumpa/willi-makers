@@ -11,7 +11,7 @@ Die Schaltung sieht wie folgt aus:
 
 Das dazugehörige Programm:
 
-.. literalinclude:: _sources/09-lichtsensor-steuert-led.cpp
+.. literalinclude:: _listings/09-lichtsensor-steuert-led.cpp
     :language: cpp
     :linenos:
 

@@ -10,7 +10,7 @@ Für diese Übung ist es egal, ob und welche Schaltung auf dem Steckbrett ist, d
 Unser erstes Programm schreibt zeilenweise "Hallo" auf die Konsole des Computers. Die Konsole können
 wir in der Arduino-Programmierumgebung durch Menuleiste/Werkzeuge/Serieller Monitor öffnen.
 
-.. literalinclude:: _sources/03-infos-an-computer.cpp
+.. literalinclude:: _listings/03-infos-an-computer.cpp
     :language: cpp
     :linenos:
 
