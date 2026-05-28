@@ -20,7 +20,7 @@ curl -sS https://bootstrap.pypa.io/get-pip.py | python
 
 ### Install venv  #############################################################
 
-sudo apt-get install -y python3.10-venv
+sudo apt-get install -y python3-venv
 
 
 ### Install poetry inside pipx ################################################
