@@ -4,6 +4,6 @@ void setup(){
 }
 
 void loop() {
-    int schalter = digitalRead(2)
+    int schalter = digitalRead(2);
     Serial.println(schalter);
 }
