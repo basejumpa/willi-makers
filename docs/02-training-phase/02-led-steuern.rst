@@ -79,8 +79,9 @@ Mit einem zu folgendem ähnlichen Programm haben wir die for Schleife kennen gel
         pinMode(3, OUTPUT);
     }
 
+    int a = 0;
     void loop(){
-        for(a=0; a <= 1000; a = a + 1){
+        for(a=0; a <= 1000; a = a + 100){
             digitalWrite(3, HIGH);
             delay(a);
             digitalWrite(3, LOW);
