@@ -1,8 +1,8 @@
-const int PIN_SENSOR_LINKS  = 2;
-const int PIN_SENSOR_RECHTS = 3;
+const int PIN_SENSOR_LINKS  = A0;
+const int PIN_SENSOR_RECHTS = A1;
 
-const int PIN_MOTOR_LINKS = 45;
-const int PIN_MOTOR_RECHTS = 42;
+const int PIN_MOTOR_LINKS = 6;
+const int PIN_MOTOR_RECHTS = 5;
 
 int helligkeit_links;
 int helligkeit_rechts;
@@ -11,9 +11,9 @@ String untergrund_links = "Unbekannt";
 String untergrund_rechts = "Unbekannt";
 
 String untergrund_neu(String untergrund_alt, int helligkeit) {
-  if(helligkeit > 4000)
+  if(helligkeit > 910)
     return "SCHWARZ";
-  else if (helligkeit < 3900)
+  else if (helligkeit < 880)
     return "WEISS";
   else
     return untergrund_alt;
@@ -52,7 +52,7 @@ void fahre(String ort){
 }
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -66,7 +66,8 @@ void loop() {
   untergrund_links = untergrund_neu(untergrund_links, helligkeit_links);
   untergrund_rechts = untergrund_neu(untergrund_rechts, helligkeit_rechts);
 
-  Serial.println(untergrund_links);
+  Serial.print(untergrund_links);
+  Serial.print(" ");
   Serial.println(untergrund_rechts);
 
   ort = ort_neu(ort, untergrund_links, untergrund_rechts);

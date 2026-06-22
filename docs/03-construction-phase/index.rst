@@ -10,3 +10,14 @@ Die Position von Servos und die Geschwindigkeit von Motoren wird über deren Ein
 .. figure:: _figures/arduino_nano_v3__pinout.png
 
     Arduino Nano v3 Pinout
+
+.. figure:: _figures/line_follower.png
+
+
+.. literalinclude:: _listings/line-follower.cpp
+    :language: cpp
+    :linenos:
+
+
+
+
